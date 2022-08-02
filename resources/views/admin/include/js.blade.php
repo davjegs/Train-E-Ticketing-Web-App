@@ -1,0 +1,15 @@
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="{{ url('admin/plugins/jquery/jquery.min.js')}}"></script>
+<!-- Bootstrap 4 -->
+<script src="{{ url('admin/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<!-- DataTables -->
+<script src="{{ url('admin/plugins/datatables/jquery.dataTables.js')}}"></script>
+<script src="{{ url('admin/plugins/datatables-bs4/js/dataTables.bootstrap4.js')}}"></script>
+<!-- SweetAlert2 -->
+<script src="{{ url('admin/plugins/sweetalert2/sweetalert2.min.js')}}"></script>
+<!-- Toastr -->
+<script src="{{ url('admin/plugins/toastr/toastr.min.js')}}"></script>
+<!-- AdminLTE App -->
+<script src="{{ url('admin/dist/js/adminlte.min.js')}}"></script>

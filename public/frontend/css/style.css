@@ -1,0 +1,97 @@
+body{
+  font-family: 'Open Sans', 'Roboto Regular', sans-serif;
+  font-size: 15px;
+  color: grey !important;
+}
+#navbar-img{
+  margin-top: 3px;
+  margin-left: 3px;
+}
+.active, #navbtn, nav ul li div a.dropdown-item{
+  font-family: 'Open Sans Semibold';
+}
+nav ul li a.nav-link{
+  font-family: 'Open Sans Semibold';
+  color:#fff !important;
+}
+nav ul li a.nav-link:hover, footer ul li a.nav-link:hover{
+  color:rgb(255, 255, 0) !important;
+}
+nav ul li div a.dropdown-item:hover{
+  color:rgb(23, 129, 9) !important;
+}
+nav button#navdownloadbtn, button#slider1-btn, div.section3-btncontainer a#section3-btn{
+  background-color: yellow !important;
+  border: none;
+}
+nav button#navdownloadbtn:hover, button#slider1-btn:hover, div.section3-btncontainer a#section3-btn{
+  background-color: rgb(175, 175, 13) !important;
+  color: #fff;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+.sticky + .content {
+    padding-top: 63px;
+}
+nav#mainnavbar, .section1, #section2-titlebg, #section3-learn{
+  background-color: rgb(13, 70, 6) !important;
+}
+.section1{
+  height: 400px;
+}
+@media only screen and (max-width: 800px){
+  .section1{
+  height: auto;
+  padding-bottom: 20px;
+  }
+}
+#section2-titlebg{
+  height: 20%;
+  margin: -55px -60px;
+  padding: 0;
+  z-index:200;
+}
+@media only screen and (min-width: 990px){
+#section2-title{
+  color: white !important;
+ }
+}
+a#section3-btn{
+  animation-name: section3link;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes section3link{
+  0%{
+      margin-top: 0px;
+  }
+  50%{
+    margin-top: 6px;
+  }
+
+  100%{
+    margin-top: 0px;
+  }
+}
+div.accordion div.card div.card-header{
+    cursor:s-resize;
+}
+#faq-aside{
+  margin-top: -5rem;
+  font-size: 13px;
+  position: fixed;
+
+}
+.faq-list a{
+  color: rgb(121, 121, 121) !important;
+}
+.faq-list a:hover{
+  color:rgb(13, 70, 6) !important;
+}
+
+form input:focus,form select:focus{
+    border:2px solid green !important;
+}
